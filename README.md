@@ -1,5 +1,4 @@
-# JMeter
-Performance scripting
+# JMeter: Performance scripting
 
 **API**
 ```
