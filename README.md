@@ -1,7 +1,7 @@
 # JMeter: Performance scripting
 
 **Installation & Setup**
-```
+
 1.	Prerequisite: Java Development Kit 8 (JDK 8)
 All OS: [JDK 8 Download Page](https://www.oracle.com/java/technologies/downloads/)
 
@@ -13,17 +13,17 @@ Unzip and save the extracted JMeter folder to any location
 Win: go to jmeter/bin folder and run jmeter.bat
 OXS: open terminal in jmeter/bin folder run sh jmeter.sh
 
-4.	Run the JMeter scripts
+4.	Run the JMeter scripts  
 
-Optional: Setup JMeter in the Windows environment variables
-Win: 
-a. Search for Environment Variables > Environment Variables
-b. Under System variables: New > Variable name: *JMETER_HOME*, 
-   Variable value: *<path of your JMeter program> (ie: C:\Users\john\apache-jmeter-5.5)* > OK
-c. Under System variables: Select Path > Edit > New > *%JMETER_HOME%\bin*
+**Optional: Setup JMeter in the Windows environment variables**
+
+1. Search for Environment Variables > Environment Variables
+2. Under System variables: New > Variable name: *JMETER_HOME*, Variable value: *<path of your JMeter program> (ie: C:\Users\john\apache-jmeter-5.5)* > OK
+3. Under System variables: Select Path > Edit > New > *%JMETER_HOME%\bin*
 
 Your JMeter.bat command can now be ran in Windows from any folder location.
-```
+-----
+### Sample Scripts   
 
 **API**
 ```
@@ -37,7 +37,7 @@ Your JMeter.bat command can now be ran in Windows from any folder location.
 - Sample webpage was recorded using the BlazeMeter extension in Chrome
 - Similar to API scripts, please do not load test on production websits to avoid a mistaken DDoS attack
 ```
-
+------ 
 **Additional Information:**
 It is recommended to close the JMeter UI and run JMeter scripts in the CLI to minimize any performance impacts due to local resources being used.
 The CLI (Command Line Interface) command is:
