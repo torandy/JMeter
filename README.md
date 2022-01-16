@@ -1,7 +1,7 @@
 # JMeter
 Performance scripting
 
-** API **
+**API**
 ```
 - API Sample Datafile.csv is used for data to run the script
 - The datafile path within the script is pointed to my local directory which needs to be updated if running elsewhere
