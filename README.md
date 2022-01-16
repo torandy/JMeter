@@ -3,6 +3,6 @@
 **API**
 ```
 - API Sample Datafile.csv is used for data to run the script
-- The datafile path within the script is pointed to my local directory which needs to be updated if running elsewhere
+- Check that the datafile path within the script is pointed to the proper location before running
 - Ensure you have permission to test the API endpoints, you don't want it to be mistaken as a DDoS attack
 ```
