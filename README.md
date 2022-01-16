@@ -40,5 +40,6 @@ Your JMeter.bat command can now be ran in Windows from any folder location.
 
 **Additional Information:**
 It is recommended to close the JMeter UI and run JMeter scripts in the CLI to minimize any performance impacts due to local resources being used.
-The CLI (Command Line Interface) command is: 
+The CLI (Command Line Interface) command is:
+
 `Jmeter -n -t [jmx file] -l [results file] -e -o [Path to web report folder]`
