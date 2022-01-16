@@ -18,7 +18,8 @@ OXS: open terminal in jmeter/bin folder run sh jmeter.sh
 Optional: Setup JMeter in the Windows environment variables
 Win: 
 a. Search for Environment Variables > Environment Variables
-b. Under System variables: New > Variable name: *JMETER_HOME*, Variable value: *<path of your JMeter program> (ie: C:\Users\john\apache-jmeter-5.5)* > OK
+b. Under System variables: New > Variable name: *JMETER_HOME*, 
+   Variable value: *<path of your JMeter program> (ie: C:\Users\john\apache-jmeter-5.5)* > OK
 c. Under System variables: Select Path > Edit > New > *%JMETER_HOME%\bin*
 
 Your JMeter.bat command can now be ran in Windows from any folder location.
@@ -39,4 +40,5 @@ Your JMeter.bat command can now be ran in Windows from any folder location.
 
 **Additional Information:**
 It is recommended to close the JMeter UI and run JMeter scripts in the CLI to minimize any performance impacts due to local resources being used.
-The CLI (Command Line Interface) command is: `Jmeter -n -t [jmx file] -l [results file] -e -o [Path to web report folder]`
+The CLI (Command Line Interface) command is: 
+`Jmeter -n -t [jmx file] -l [results file] -e -o [Path to web report folder]`
