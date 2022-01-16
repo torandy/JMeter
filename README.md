@@ -3,10 +3,10 @@
 **Installation & Setup**
 ```
 1.	Prerequisite: Java Development Kit 8 (JDK 8)
-All OS: https://www.oracle.com/java/technologies/downloads/
+All OS: [JDK 8 Download Page](https://www.oracle.com/java/technologies/downloads/)
 
 2.	Setup the JMeter on your local machine
-JMeter Download: https://jmeter.apache.org/download_jmeter.cgi
+JMeter Download: [JMeter Download](https://jmeter.apache.org/download_jmeter.cgi)
 Unzip and save the extracted JMeter folder to any location
 
 3.	Start JMeter Interface
